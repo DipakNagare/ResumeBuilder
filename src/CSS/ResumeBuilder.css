@@ -1,0 +1,76 @@
+.resume-builder {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .resume-builder form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder form label {
+    font-weight: bold;
+  }
+  
+  .resume-builder form input[type="text"],
+  .resume-builder form input[type="email"],
+  .resume-builder form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder form button[type="button"],
+  .resume-builder form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resume-builder form button[type="button"]:hover,
+  .resume-builder form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume-builder .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .resume-builder .education-field,
+  .resume-builder .experience-field {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder .education-field input,
+  .resume-builder .experience-field input {
+    margin-bottom: 10px;
+  }
+  
+  .resume-builder .form-group:last-child {
+    margin-bottom: 0;
+  }
+  
